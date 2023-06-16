@@ -1,0 +1,4 @@
+июн. 16, 2023 10:40:10 PM Task_4 main
+WARNING: No WARNING, everything is fine!
+июн. 16, 2023 10:40:10 PM Task_4 main
+INFO: 5.0 + 56.0 = 61.0
