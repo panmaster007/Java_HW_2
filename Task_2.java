@@ -36,13 +36,11 @@ public class Task_2 {
                     digArray[currPos] = digArray[currPos+1];
                     digArray[currPos+1] = bigger;
                 }
-                logger.log(Level.WARNING, "No WARNING, everything is fine!");
+                logger.log(Level.WARNING, "Всё в порядке!");
                 logger.info(prA(digArray));
                 prA(digArray);
 
             }    
-        System.out.println("-------------------------------------------------------");
         }
-    // -----------------------------------------------------------------sysout
     }
 }
