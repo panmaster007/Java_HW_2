@@ -20,7 +20,7 @@ public class Task_2 {
     }
     public static void main(String[] args) throws IOException {
         Logger logger = Logger.getLogger(Task_2.class.getName());
-        FileHandler fh = new FileHandler("bubble_log.txt");
+        FileHandler fh = new FileHandler("sort_log.txt");
         logger.addHandler(fh);
         SimpleFormatter sFormat = new SimpleFormatter();
         fh.setFormatter(sFormat);
