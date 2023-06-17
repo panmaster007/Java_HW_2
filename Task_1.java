@@ -9,13 +9,13 @@ import java.util.Scanner;
 public class Task_1 {
     public static void main(String[] args) {
         String inString;
-        String finStr = "select * from students WHERE "; // результирующая строка, начало
+        String resultStr = "select * from students WHERE "; // результирующая строка, начало
         StringBuilder sb = new StringBuilder();
         
-        sb.append(finStr);
+        sb.append(resultStr);
         System.out.println();
         // Принимаем от пользователя строку
-        System.out.printf("Enter string: ");
+        System.out.printf("Введите строку: ");
         Scanner sc = new Scanner(System.in);
         inString = sc.nextLine();
         System.out.println();
@@ -46,10 +46,7 @@ public class Task_1 {
                     beforeIsNotNull = true;
                 }
         }
-        System.out.println("----------------------------------------------------------------------------------------------------");
-        System.out.println(sb);
-        System.out.println("----------------------------------------------------------------------------------------------------");
-        System.out.println();
-    
+        System.out.println(sb);                                            
+        System.out.println();   
     }
 }
