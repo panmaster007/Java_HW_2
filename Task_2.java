@@ -24,7 +24,7 @@ public class Task_2 {
         logger.addHandler(fh);
         SimpleFormatter sFormat = new SimpleFormatter();
         fh.setFormatter(sFormat);
-        int[] digArray = new int[] {22, 8, 3, 1, 7};
+        int[] digArray = new int[] {13, 63, 1, 7};
         prA(digArray);
         int size = digArray.length;
         int bigger = digArray[0];
